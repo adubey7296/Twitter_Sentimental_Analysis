@@ -1,0 +1,26 @@
+Q)Positive and negative tweets analysis.
+
+	A = LOAD '/path/demonitization-tweets' USING PigStorage(',');
+
+	B = FOREACH A generate $0 as id,$1 as text;
+
+	C = FOREACH B generate id,text,FLATTEN(tokenize(text)) as word;
+
+	D = LOAD '/path/affin.txt' USING PigStorage('\t') as (word:chararray,rating:int);
+
+	E = JOIN C by word left outer,dictionary by word using 'replicated',
+
+	F = FOREACH E generate tokens::id as id,tokens::text as text,dictionary::rating as rate;
+
+	G = GROUP F by(id,text);
+
+	H = FOREACH G generate GROUP,AVG(rating.rate);
+
+	positive_tweets = filter H by tweet rating>=0;
+
+	dump positive_tweets;
+
+	negative_tweets = filter H by tweets rating<0;
+
+	dump negative_tweets;
+ 
