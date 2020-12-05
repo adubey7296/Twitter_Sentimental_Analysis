@@ -15,4 +15,4 @@ Hadoop is a framework which deals with Big data and it has its own family which 
 * The demand of sentiment analysis occupies the same space with the growth of social media such as Twitter, Facebook, Quora, blogs, microblogs, Instagram and other social networks. 
 In this research work, the most popular microblogging site ‘twitter’ has been used for sentiment analysis. 
 ###### Why Pig not Hive?
-From the experimental results, conclusion can be drawn that Pig is more efficient than Hive as Pig takes less time for execution than Hive.
+* From the experimental results, conclusion can be drawn that Pig is more efficient than Hive as Pig takes less time for execution than Hive.
