@@ -1,6 +1,6 @@
 # Twitter_Sentimental_Analysis
 Pig / Apache Pig
-#### Introduction: 
+### Introduction: 
 In the era of the Internet, social media has become an integral part of modern society. 
 People use social media to share their opinions and to have an up-to-date knowledge about the current trends on a daily basis. 
 Twitter is one of the renowned social media that gets a huge amount of tweets each day. Twitter is an online social networking site which contains rich amount of data that can be a structured, 
@@ -11,7 +11,7 @@ Since Twitter contains a huge volumeof data, storing and processing this data is
 Hadoop is a big data storage and processing tool for analyzing data with 3Vs, i.e. data with huge volume, variety and velocity. 
 Hadoop is a framework which deals with Big data and it has its own family which supports processing of different things which are tied up in one umbrella called the Hadoop Ecosystem. In this paper, we will be analyzing tweets streamed in real time.
 
-####### We have a approach, it's easy and better to do the sentiments analysis of twitter data using Pig and big data, based on the twitter data, in terms of Positive, Negative or Neutral..
+###### We have a approach, it's easy and better to do the sentiments analysis of twitter data using Pig and big data, based on the twitter data, in terms of Positive, Negative or Neutral..
 The demand of sentiment analysis occupies the same space with the growth of social media such as Twitter, Facebook, Quora, blogs, microblogs, Instagram and other social networks. 
 In this research work, the most popular microblogging site ‘twitter’ has been used for sentiment analysis. 
 ###### Why Pig not Hive?
