@@ -2,7 +2,7 @@
 Pig / Apache Pig
 ### Introduction: 
 In the era of the Internet, social media has become an integral part of modern society. 
-People use social media to share their opinions and to have an up-to-date knowledge about the current trends on a daily basis. 
+*People use social media to share their opinions and to have an up-to-date knowledge about the current trends on a daily basis. 
 Twitter is one of the renowned social media that gets a huge amount of tweets each day. Twitter is an online social networking site which contains rich amount of data that can be a structured, 
 semi-structured and un-structured data. In this work, a method which performs classification of tweet sentiment in Twitter is discussed. To improve its scalability and efficiency, it is proposed to implement the work on Hadoop Ecosystem, a widely-adopted distributed processing platform using the Map Reduce parallel processing paradigm. 
 Finally, extensive experiments will be conducted on real-world data sets, with an expectation to achieve comparable or greater accuracy than the proposed techniques in literature.
